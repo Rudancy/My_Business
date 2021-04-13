@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import business_site_header
+from .models import home_page
 
 # Register your models here.
 
-admin.site.register(business_site_header)
+admin.site.register(home_page)
