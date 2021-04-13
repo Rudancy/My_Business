@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% load static %}  {% block body %}
 
-
+{% for home_page_value in home_page_values %}
 
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Divine Websites</h1>
+          <h1 class="mb-5">{{ home_page_value.masthead }}</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
@@ -197,7 +197,8 @@
       </div>
     </div>
   </footer>
-{% endblock %}
+  {% endfor %}
+  {% endblock %}
   <!-- Bootstrap core JavaScript -->
   
 
