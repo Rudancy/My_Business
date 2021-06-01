@@ -12,13 +12,13 @@ class home_page(models.Model):
     icon_3_header = models.CharField(max_length=30, default='', blank=True)
     icon_3_description = models.TextField(max_length=30, default='', blank=True)
     showcase_1_header = models.CharField(max_length=30, default='', blank=True)
-    showcase_1_image = models.ImageField(upload_to='images', default='', blank=True)
+    showcase_1_image = models.ImageField(upload_to='static/images', default='', blank=True)
     showcase_1_description = models.TextField(max_length=100, default='', blank=True)
     showcase_2_header = models.CharField(max_length=30, default='', blank=True)
-    showcase_2_image = models.ImageField(upload_to='images', default='', blank=True)
+    showcase_2_image = models.ImageField(upload_to='static/images', default='', blank=True)
     showcase_2_description = models.TextField(max_length=100, default='', blank=True)
     showcase_3_header = models.CharField(max_length=30, default='', blank=True)
-    showcase_3_image = models.ImageField(upload_to='images', default='', blank=True)
+    showcase_3_image = models.ImageField(upload_to='static/images', default='', blank=True)
     showcase_3_description = models.TextField(max_length=100, default='', blank=True)
     
     
