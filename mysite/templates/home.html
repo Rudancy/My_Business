@@ -5,7 +5,7 @@
   
 
   <!-- Masthead -->
-  <header class="masthead text-white text-center">
+  <header class="masthead text-white text-center">  
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -66,7 +66,7 @@
         </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>{{ home_page_value.showcase_1_header }}</h2>
-          <p class="lead mb-0">{{ home_page_value.showcase_1_description }}</p>
+          <p class="lead mb-0">{{ home_page_value.showcase_1_description|linebreaks }}</p>
         </div>
       </div>
       <div class="row no-gutters">
@@ -75,7 +75,7 @@
         </div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>{{ home_page_value.showcase_2_header }}</h2>
-          <p class="lead mb-0">{{ home_page_value.showcase_2_description }}</p>
+          <p class="lead mb-0">{{ home_page_value.showcase_2_description|linebreaks }}</p>
         </div>
       </div>
       <div class="row no-gutters">
@@ -84,7 +84,7 @@
         </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>{{ home_page_value.showcase_3_header }}</h2>
-          <p class="lead mb-0">{{ home_page_value.showcase_3_description }}</p>
+          <p class="lead mb-0">{{ home_page_value.showcase_3_description|linebreaks }}</p>
         </div>
       </div>
     </div>
